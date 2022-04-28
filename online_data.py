@@ -1,7 +1,18 @@
+import os
 from pprint import pprint
-from feast import FeatureStore
+from feast import FeatureStore, RepoConfig
+from feast.infra.online_stores.redis import RedisOnlineStoreConfig
 
-store = FeatureStore(repo_path=".")
+store = FeatureStore(
+    config = RepoConfig(
+        registry = os.path.join(os.getcwd(), "./data/registry.db"),
+        project = "feature_repo",
+        provider = "local",
+        online_store = RedisOnlineStoreConfig(
+            connection_string = "localhost:6379"
+        )
+    )
+)
 
 feature_vector = store.get_online_features(
     features=[
@@ -11,8 +22,8 @@ feature_vector = store.get_online_features(
     ],
     entity_rows=[
         # {join_key: entity_value}
-        {"driver_id": 1004},
-        {"driver_id": 1005},
+        # {"driver_id": 1004},
+        {"driver_id": 1002},
     ],
 ).to_dict()
 
