@@ -1,0 +1,19 @@
+
+C
+%
+__dummy"
+__dummy_idJfeature_repo
+¥ñž“È×ˆn¥ñž“È×ˆn
+O
+1
+	driver_id	driver id"	driver_idJfeature_repo
+¥ñž“È×ˆn¥ñž“È×ˆn1"$f6d533ac-a108-4e1e-b49f-c6fc5ac4161a*¥ñž“È×ˆn2µ
+–
+driver_hourly_statsfeature_repo	driver_id"
+	conv_rate"
+acc_rate"
+avg_daily_trips2€£:«event_timestamp*createdZljC:\Users\cuburt.balanon\OneDrive - HCL Technologies Ltd\dev\xai dev\feature_repo\data\driver_stats.parquetŠ1feast.infra.offline_stores.file_source.FileSource¢jC:\Users\cuburt.balanon\OneDrive - HCL Technologies Ltd\dev\xai dev\feature_repo\data\driver_stats.parquet@
+¥ñž“È×ˆn¥ñž“È×ˆnR½
+º
+,feast.infra.online_stores.sqlite.SqliteTable"‰
+eC:\Users\cuburt.balanon\OneDrive - HCL Technologies Ltd\dev\xai dev\feature_repo\data\online_store.db feature_repo_driver_hourly_statsbºevent_timestamp*createdZljC:\Users\cuburt.balanon\OneDrive - HCL Technologies Ltd\dev\xai dev\feature_repo\data\driver_stats.parquetŠ1feast.infra.offline_stores.file_source.FileSource¢jC:\Users\cuburt.balanon\OneDrive - HCL Technologies Ltd\dev\xai dev\feature_repo\data\driver_stats.parquetªfeature_repo
